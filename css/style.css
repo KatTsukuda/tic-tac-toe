@@ -1,8 +1,40 @@
-#board {
-  margin-top: 10px;
+body {
+    background-color: #C9D787;
+    color: #FFFFFF;
 }
-
+#board {
+    margin: 12px;
+ }
 .box {
-  border: 1px solid black;
-  height: 150px;
+    border: 1px solid #FFFFFF;
+    background-color: #C5C7B6;
+    height: 100px;
+    width: 100px;
+}
+.box:hover {
+    background-color: #F2EDE4;
+}
+.X {
+    color: #7D8A2E;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+}
+.O {
+    color: #FF8598;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+}
+.btn-danger {
+    background-color: #FF8598;
+    border-color: #FF8598;
+    margin-left: 15px;
+}
+.btn-danger:hover, .btn-danger:active {
+    background-color: #FFC0A9;
+    border-color: #FFC0A9;
+}
+#reset {
+    margin-bottom: 100px;
 }
